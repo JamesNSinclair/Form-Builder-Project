@@ -73,7 +73,7 @@ button {
 }
 
 fieldset {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border: none;
 }
 
@@ -165,6 +165,11 @@ input[placeholder] {
     max-width: 45%;
   }
 
+footer {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 15px;
+}
 
 /*MEDIA QUERIES */
 
