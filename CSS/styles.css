@@ -73,6 +73,7 @@ button {
 }
 
 fieldset {
+  border-top:
   margin-bottom: 10px;
   border: none;
 }
@@ -126,13 +127,12 @@ input[type="submit"] {
 }
 
 .contact {
-  border-bottom: solid 2px grey;
-   margin-top: 5%;
-    }
+  margin-top: 5%;
+}
 
 .header {
   text-align: center;
-  border-bottom: solid 2px grey;
+  border-bottom: solid 5px grey;
     }
 
 .topics {
@@ -203,5 +203,4 @@ footer {
 
 
 #zipcode {
- max-width: 250px;
-}
+ max-width: 150px;
