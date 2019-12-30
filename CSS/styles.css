@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 95%;
+  margin: auto;
+  padding: 1px 2px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin: 5px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 0 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  }
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.banner {
+ text-align: center;
+ color: white;
+background-color: navy;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+input[type="text"] {
+background-color: rgb(168, 112, 66);
+color: white;
+}
+
+input[type="email"] {
+  background-color: rgb(255, 112, 66);
+  color: white;
+}
+
+input[type="password"] {
+  background-color: rgb(168, 112, 255);
+  color: white;
+}
+
+input[type="button"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.info-request {
+ margin: 10px 0;
+}
+
+.contact {
+  border-bottom: solid 2px grey;
+   margin-top: 5%;
+    }
+
+.header {
+  text-align: center;
+  border-bottom: solid 2px grey;
+    }
+
+.topics {
+  padding-top: 5%;
+}
+
+.choice {
+padding-top: 5%;
+padding-bottom: 2%;
+}
+
+input:focus,
+textarea:focus {
+background-color: black;
+border: solid 1px black;
+transition: 2s;
+}
+
+input[type="checkbox"]:checked + label {
+font-weight: bold;
+}
+
+input[placeholder] {
+  text-align: right;
+  color: white;
+  }
+
+  input[name="user-zipcode"] {
+    display: inline-block;
+    max-width: 45%;
+  }
+
+
+/*MEDIA QUERIES */
+
+@media screen and (min-width: 760px) {
+
+  form {
+    max-width: 760px;
+  }
+
+  .info-request {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+      }
+
+      .details:first-child {
+      flex: 1;
+       }
+
+      .details:last-child {
+       flex: 3;
+        }
+
+      .info-request label {
+      width: 25%;
+      }
+
+
+#zipcode {
+ max-width: 250px;
+}
