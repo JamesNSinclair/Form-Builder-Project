@@ -73,8 +73,6 @@ button {
 }
 
 fieldset {
-  border-top:
-  margin-bottom: 10px;
   border: none;
 }
 
@@ -153,7 +151,7 @@ padding-bottom: 2%;
 input:focus,
 textarea:focus {
 background-color: black;
-border: solid 1px black;
+border: solid 3px rgb(168, 112, 66);
 transition: 2s;
 }
 
