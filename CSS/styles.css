@@ -81,7 +81,8 @@ fieldset {
 legend {
   font-size: 1.4em;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
 }
 
 label {
@@ -135,12 +136,17 @@ input[type="submit"] {
   border-bottom: solid 5px grey;
     }
 
+#hr {
+      text-align: center;
+      border-bottom: solid 5px grey;
+        }
+
 .topics {
   padding-top: 5%;
 }
 
 .choice {
-padding-top: 5%;
+padding-top: 5px;
 padding-bottom: 2%;
 }
 
@@ -201,6 +207,22 @@ footer {
       width: 25%;
       }
 
+  .zip-request {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+      }
+
+.zip-details:first-child {
+width: 25%;
+}
 
 #zipcode {
- max-width: 150px;
+ max-width: 260px;
+}
+
+}
